@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print('Enter A Number:');
+  print(' Enter A Number:');
   int number = int.parse(stdin.readLineSync()!);
 
   if (number.isEven) {
