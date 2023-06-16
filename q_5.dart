@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main() {
+  print('** Wheather Type **');
   print("Enter Temperature in Centigrade:");
   num temperature = num.parse(stdin.readLineSync()!);
 
