@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print('** Vowel **');
+  print('** Vowel or Consonent **');
   print('Enter an alphabet:');
   String alphabet = stdin.readLineSync()!;
 
